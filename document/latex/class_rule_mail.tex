@@ -1,0 +1,72 @@
+\hypertarget{class_rule_mail}{\section{Rule\+Mail クラス}
+\label{class_rule_mail}\index{Rule\+Mail@{Rule\+Mail}}
+}
+Rule\+Mail の継承関係図\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_rule_mail}
+\end{center}
+\end{figure}
+\subsection*{公開メンバ関数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rule_mail_a095c5d389db211932136b53f25f39685}{\+\_\+\+\_\+construct} ()
+\item 
+\hyperlink{class_rule_mail_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{フィールド}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_rule_mail_ae120b9206d39e1922b268a74697c4775}{const {\bfseries M\+A\+I\+L\+\_\+\+P\+A\+T\+T\+E\+R\+N} = '/$^\wedge$(\mbox{[}a-\/z0-\/9\+\_\+\mbox{]}$\vert$\textbackslash{}-\/$\vert$\textbackslash{}.$\vert$\textbackslash{}+)+@((\mbox{[}a-\/z0-\/9\+\_\+\mbox{]}$\vert$\textbackslash{}-\/)+\textbackslash{}.)+\mbox{[}a-\/z\mbox{]}\{2,6\}\$/i'}\label{class_rule_mail_ae120b9206d39e1922b268a74697c4775}
+
+\end{DoxyCompactItemize}
+\subsection*{その他の継承メンバ}
+
+
+\subsection{詳解}
+ルール：メールアドレスクラス
+
+\begin{DoxyVersion}{バージョン}
+1.\+0.\+0  U\+T\+F-\/8  2011/10/09  2011/10/19 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{著者}
+mamiya\+\_\+shou 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{著作権所有}
+mamiya\+\_\+shou  M\+I\+T License  P\+H\+P 5.\+0 以上必須 
+\end{DoxyCopyright}
+
+
+\subsection{構築子と解体子}
+\hypertarget{class_rule_mail_a095c5d389db211932136b53f25f39685}{\index{Rule\+Mail@{Rule\+Mail}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Rule\+Mail@{Rule\+Mail}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rule_mail_a095c5d389db211932136b53f25f39685}
+コンストラクタ
+
+public \begin{DoxyReturn}{戻り値}
+void 
+\end{DoxyReturn}
+
+
+\subsection{関数詳解}
+\hypertarget{class_rule_mail_afb0fafe7e02a3ae1993c01c19fad2bae}{\index{Rule\+Mail@{Rule\+Mail}!run@{run}}
+\index{run@{run}!Rule\+Mail@{Rule\+Mail}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rule_mail_afb0fafe7e02a3ae1993c01c19fad2bae}
+バリデートする
+
+public \begin{DoxyReturn}{戻り値}
+boolean T\+R\+U\+E(\+O\+K) / string エラーメッセージ(\+N\+G)  未入力('')の場合は\+T\+R\+U\+Eを返す  re\+: P\+H\+Pでメールアドレスかどうか調べる方法 (ハズレ日記) \href{http://catbot.net/blog/2007/06/re_php.html}{\tt http\+://catbot.\+net/blog/2007/06/re\+\_\+php.\+html} 
+\end{DoxyReturn}
+
+
+このクラス詳解は次のファイルから抽出されました\+:\begin{DoxyCompactItemize}
+\item 
+Validate/rules/mail.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,136 @@
+\hypertarget{class_validate}{\section{Validate クラス}
+\label{class_validate}\index{Validate@{Validate}}
+}
+\subsection*{公開メンバ関数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_validate_affd2166b9ae24d7f6d972b6e8e27ab64}{\+\_\+\+\_\+construct} (\$requests)
+\item 
+\hyperlink{class_validate_a0f28658da9689c7abbfeef6620621b11}{add\+Rule} ()
+\item 
+\hyperlink{class_validate_a3784964295510f2bf9e3c08945073a6e}{del\+Rule} (\$name, \$type=N\+U\+L\+L)
+\item 
+\hyperlink{class_validate_afc81a53f0add88b49c6f84068d47987b}{copy\+Rule} (\$dest\+Name, \$src\+Name)
+\item 
+\hyperlink{class_validate_afb0fafe7e02a3ae1993c01c19fad2bae}{run} ()
+\end{DoxyCompactItemize}
+\subsection*{フィールド}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_validate_ab24faf4aa647cdcee494fc48524ad4ff}{{\bfseries \$errors}}\label{class_validate_ab24faf4aa647cdcee494fc48524ad4ff}
+
+\item 
+\hypertarget{class_validate_a233d12bd8b6d3453e9a7a3f0b8c31db2}{{\bfseries \$results}}\label{class_validate_a233d12bd8b6d3453e9a7a3f0b8c31db2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{詳解}
+バリデートクラス
+
+\begin{DoxyVersion}{バージョン}
+1.\+0.\+0  U\+T\+F-\/8  2011/10/05  2011/10/19 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{著者}
+mamiya\+\_\+shou 
+\end{DoxyAuthor}
+\begin{DoxyCopyright}{著作権所有}
+mamiya\+\_\+shou  M\+I\+T License  P\+H\+P 5.\+0 以上必須 
+\end{DoxyCopyright}
+
+
+\subsection{構築子と解体子}
+\hypertarget{class_validate_affd2166b9ae24d7f6d972b6e8e27ab64}{\index{Validate@{Validate}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Validate@{Validate}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$requests}
+\end{DoxyParamCaption}
+)}}\label{class_validate_affd2166b9ae24d7f6d972b6e8e27ab64}
+コンストラクタ
+
+public 
+\begin{DoxyParams}[1]{引数}
+array & {\em \$posts} & リクエスト配列 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+void 
+\end{DoxyReturn}
+
+
+\subsection{関数詳解}
+\hypertarget{class_validate_a0f28658da9689c7abbfeef6620621b11}{\index{Validate@{Validate}!add\+Rule@{add\+Rule}}
+\index{add\+Rule@{add\+Rule}!Validate@{Validate}}
+\subsubsection[{add\+Rule}]{\setlength{\rightskip}{0pt plus 5cm}add\+Rule (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_validate_a0f28658da9689c7abbfeef6620621b11}
+ルールを追加する
+
+public 
+\begin{DoxyParams}{引数}
+{\em 可変長引数(name,type} & \mbox{[}, etc \mbox{[}, etc...\mbox{]}\mbox{]}) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+boolean T\+R\+U\+E(\+O\+K) / F\+A\+L\+S\+E(\+N\+G) 
+\end{DoxyReturn}
+\hypertarget{class_validate_afc81a53f0add88b49c6f84068d47987b}{\index{Validate@{Validate}!copy\+Rule@{copy\+Rule}}
+\index{copy\+Rule@{copy\+Rule}!Validate@{Validate}}
+\subsubsection[{copy\+Rule}]{\setlength{\rightskip}{0pt plus 5cm}copy\+Rule (
+\begin{DoxyParamCaption}
+\item[{}]{\$dest\+Name, }
+\item[{}]{\$src\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_validate_afc81a53f0add88b49c6f84068d47987b}
+ルールをコピーする
+
+public 
+\begin{DoxyParams}[1]{引数}
+string & {\em \$dest\+Name} & コピー先のname値 \\
+\hline
+string & {\em \$src\+Name} & コピー元のname値 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+boolean T\+R\+U\+E(\+O\+K) / F\+A\+L\+S\+E(\+N\+G) 
+\end{DoxyReturn}
+\hypertarget{class_validate_a3784964295510f2bf9e3c08945073a6e}{\index{Validate@{Validate}!del\+Rule@{del\+Rule}}
+\index{del\+Rule@{del\+Rule}!Validate@{Validate}}
+\subsubsection[{del\+Rule}]{\setlength{\rightskip}{0pt plus 5cm}del\+Rule (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$type = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_validate_a3784964295510f2bf9e3c08945073a6e}
+ルールを削除する
+
+public 
+\begin{DoxyParams}[1]{引数}
+string & {\em \$name} & name値 \\
+\hline
+string & {\em \$type} & ルール名 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{戻り値}
+boolean T\+R\+U\+E(\+O\+K) / F\+A\+L\+S\+E(\+N\+G) 
+\end{DoxyReturn}
+\hypertarget{class_validate_afb0fafe7e02a3ae1993c01c19fad2bae}{\index{Validate@{Validate}!run@{run}}
+\index{run@{run}!Validate@{Validate}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_validate_afb0fafe7e02a3ae1993c01c19fad2bae}
+バリデーションを実行する
+
+public \begin{DoxyReturn}{戻り値}
+boolean T\+R\+U\+E(エラー無し) / F\+A\+L\+S\+E(エラー有り) 
+\end{DoxyReturn}
+
+
+このクラス詳解は次のファイルから抽出されました\+:\begin{DoxyCompactItemize}
+\item 
+Validate/Validate.\+php\end{DoxyCompactItemize}
