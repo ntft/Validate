@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Validate: RuleBase クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Validate
+   </div>
+   <div id="projectbrief">バリデートクラス</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>総合概要</span></a></li>
+      <li class="current"><a href="annotated.html"><span>データ構造</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>データ構造</span></a></li>
+      <li><a href="classes.html"><span>データ構造索引</span></a></li>
+      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
+      <li><a href="functions.html"><span>データフィールド</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全て</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>データ構造</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>関数</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-attribs">フィールド</a> &#124;
+<a href="#pro-attribs">限定公開変数類</a>  </div>
+  <div class="headertitle">
+<div class="title">RuleBase クラス</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+RuleBase の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_rule_base.png" usemap="#RuleBase_map" alt=""/>
+  <map id="RuleBase_map" name="RuleBase_map">
+<area href="class_rule_byte.html" alt="RuleByte" shape="rect" coords="153,56,296,80"/>
+<area href="class_rule_comparison.html" alt="RuleComparison" shape="rect" coords="153,112,296,136"/>
+<area href="class_rule_credit.html" alt="RuleCredit" shape="rect" coords="153,168,296,192"/>
+<area href="class_rule_date.html" alt="RuleDate" shape="rect" coords="153,224,296,248"/>
+<area href="class_rule_hiragana.html" alt="RuleHiragana" shape="rect" coords="153,280,296,304"/>
+<area href="class_rule_integer.html" alt="RuleInteger" shape="rect" coords="153,336,296,360"/>
+<area href="class_rule_katakana.html" alt="RuleKatakana" shape="rect" coords="153,392,296,416"/>
+<area href="class_rule_length.html" alt="RuleLength" shape="rect" coords="153,448,296,472"/>
+<area href="class_rule_mail.html" alt="RuleMail" shape="rect" coords="153,504,296,528"/>
+<area href="class_rule_multi.html" alt="RuleMulti" shape="rect" coords="153,560,296,584"/>
+<area href="class_rule_number.html" alt="RuleNumber" shape="rect" coords="153,616,296,640"/>
+<area href="class_rule_regular_expression.html" alt="RuleRegularExpression" shape="rect" coords="153,672,296,696"/>
+<area href="class_rule_required.html" alt="RuleRequired" shape="rect" coords="153,728,296,752"/>
+<area href="class_rule_select.html" alt="RuleSelect" shape="rect" coords="153,784,296,808"/>
+<area href="class_rule_single.html" alt="RuleSingle" shape="rect" coords="153,840,296,864"/>
+<area href="class_rule_tel.html" alt="RuleTel" shape="rect" coords="153,896,296,920"/>
+<area href="class_rule_time.html" alt="RuleTime" shape="rect" coords="153,952,296,976"/>
+<area href="class_rule_zip.html" alt="RuleZip" shape="rect" coords="153,1008,296,1032"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a7fdd69956610727a5a36b4f020bcf115"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rule_base.html#a7fdd69956610727a5a36b4f020bcf115">__construct</a> ($fileNm)</td></tr>
+<tr class="separator:a7fdd69956610727a5a36b4f020bcf115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70eef3a06fda47704282eda5ea2706d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rule_base.html#a70eef3a06fda47704282eda5ea2706d9">prepara</a> ()</td></tr>
+<tr class="separator:a70eef3a06fda47704282eda5ea2706d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0fafe7e02a3ae1993c01c19fad2bae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rule_base.html#afb0fafe7e02a3ae1993c01c19fad2bae">run</a> ()</td></tr>
+<tr class="separator:afb0fafe7e02a3ae1993c01c19fad2bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+フィールド</h2></td></tr>
+<tr class="memitem:a28d7688bd020a3b104adc19d1e08df96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28d7688bd020a3b104adc19d1e08df96"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$requests</b></td></tr>
+<tr class="separator:a28d7688bd020a3b104adc19d1e08df96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:a0f298096f322952a72a50f98a74c7b60"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f298096f322952a72a50f98a74c7b60"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$value</b></td></tr>
+<tr class="separator:a0f298096f322952a72a50f98a74c7b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af24aefa35fa703a1521c8145fe8fa082"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af24aefa35fa703a1521c8145fe8fa082"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$infos</b></td></tr>
+<tr class="separator:af24aefa35fa703a1521c8145fe8fa082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7baba555b2cbc79c5ff9ef47baee3d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7baba555b2cbc79c5ff9ef47baee3d5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$inies</b></td></tr>
+<tr class="separator:ab7baba555b2cbc79c5ff9ef47baee3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>基底ルールクラス</p>
+<dl class="section version"><dt>バージョン</dt><dd>1.0.0  UTF-8  2011/10/05  2011/10/19 </dd></dl>
+<dl class="section author"><dt>著者</dt><dd>ntft </dd></dl>
+<dl class="section copyright"><dt>著作権所有</dt><dd>ntft  MIT License  PHP 5.0 以上必須 </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a class="anchor" id="a7fdd69956610727a5a36b4f020bcf115"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__construct </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$fileNm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>コンストラクタ</p>
+<p>public </p><dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">関数詳解</h2>
+<a class="anchor" id="a70eef3a06fda47704282eda5ea2706d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">prepara </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>バリデーション準備</p>
+<p>public </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">array</td><td>可変長引数 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afb0fafe7e02a3ae1993c01c19fad2bae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>バリデートする</p>
+<p>public  抽象メソッド </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>Validate/rules/base_rule.php</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2014年12月25日(木) 15時07分24秒作成 - Validate / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
